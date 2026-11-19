@@ -254,7 +254,7 @@ jobs:
 
     - name: Run KICS IaC scan
       continue-on-error: true
-      uses: checkmarx/kics-github-action@05aa5eb70eede1355220f4ca5238d96b397e30a6 # v2.1.20
+      uses: checkmarx/kics-github-action@4a16c2130b02104dc2624c133d5224080e7cc49b # v2.2.1
       with:
         # Scan RuView-owned operational IaC only. Submodules are audited and
         # fixed in their owning repositories; archived/benchmark fixtures are
